@@ -1,6 +1,8 @@
-n=int(input())
-for i in range(int(n**(1/3))):
-    for j in range(int(n**(1/3))):
-                if i!=j :
-                    print(i**3+j**3)
-                    
+n1=int(input())
+n2=int(input())
+sum=0
+for i in range(n2):
+    sum=n1**i+sum
+print(sum)    
+    
+
