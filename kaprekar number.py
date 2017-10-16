@@ -1,4 +1,4 @@
-jkl=[]
+jklq=[]
 for j in range(1000,10000):
     u=str(j)
     n=[]
@@ -28,4 +28,4 @@ for j in range(1000,10000):
             break
         else:
             n=l
-print(max(jkl))
+print(max(jklq))
