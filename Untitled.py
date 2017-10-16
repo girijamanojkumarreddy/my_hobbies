@@ -1,2 +1,3 @@
-p="*"*12
+a=input()
+p="a"*12
 print(p)
