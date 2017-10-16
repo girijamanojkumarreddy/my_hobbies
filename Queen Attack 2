@@ -3,9 +3,9 @@
 import sys
 
 
-n,k = input().strip().split(' ')
+n,k = input().strip().split(" ")
 n,k = [int(n),int(k)]
-x,y = input().strip().split(' ')
+x,y = input().strip().split(" ")
 x,y = [int(x)-1,int(y)-1]
 a=[]
 p=x
@@ -27,7 +27,7 @@ for a_i in range(n):
         a_t = [0 for j in range(n)]
         a.append(a_t)
 for i in range(k):
-    x_,y_= map(int,input().strip().split(' '))
+    x_,y_= map(int,input().strip().split(" "))
     a[x_-1][y_-1]=1
 
 for i in range(n):
@@ -89,9 +89,9 @@ print(count)            #!/bin/python3
 import sys
 
 
-n,k = input().strip().split(' ')
+n,k = input().strip().split(" ")
 n,k = [int(n),int(k)]
-x,y = input().strip().split(' ')
+x,y = input().strip().split(" ")
 x,y = [int(x)-1,int(y)-1]
 a=[]
 p=x
@@ -113,7 +113,7 @@ for a_i in range(n):
         a_t = [0 for j in range(n)]
         a.append(a_t)
 for i in range(k):
-    x_,y_= map(int,input().strip().split(' '))
+    x_,y_= map(int,input().strip().split(" "))
     a[x_-1][y_-1]=1
 
 for i in range(n):
