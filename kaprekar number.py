@@ -28,4 +28,5 @@ for j in range(1000,10000):
             break
         else:
             n=l
+            //display the element or the array needed.
 print(max(jkl))
