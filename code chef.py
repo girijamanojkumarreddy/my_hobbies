@@ -1,3 +1,4 @@
+//This is a question from codechef
 l=int(input())
 for i in range(l):
     p=list(input())
