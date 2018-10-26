@@ -33,4 +33,4 @@ for i in range(l):
             if countb!=0:    
                 req.append("*")        
     print("".join(req))            
-        
+    print("Rey manoj gaa")    
