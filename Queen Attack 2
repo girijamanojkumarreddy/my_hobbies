@@ -170,4 +170,4 @@ for i in range(n):
         elif a[l-1][k-1]==1:
             break
 
-print(count)            
+print(count,"\n",end="")            
