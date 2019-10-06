@@ -1,8 +1,5 @@
 #!/bin/python3
 
-import sys
-
-
 n,k = input().strip().split(' ')
 n,k = [int(n),int(k)]
 x,y = input().strip().split(' ')
@@ -84,9 +81,7 @@ for i in range(n):
         elif a[l-1][k-1]==1:
             break
 
-print(count)            #!/bin/python3
-
-import sys
+print(count) 
 
 
 n,k = input().strip().split(' ')
